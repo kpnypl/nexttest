@@ -1,0 +1,130 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/3/32/SSL9000J_short_fader.jpg);
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#container {
+    width: 85%;
+    margin: auto;
+    background-color: rgba(255,255,255,0.8);
+}
+
+#header {
+    width: 100%;
+    height: 150px;
+    background-image: url(http://www.sciencealert.com/images/articles/processed/sound-waves_1024.jpg);
+    background-position: center;
+    color: white;
+    text-align: center;
+    font-size: 45px;
+    padding-top: 40px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+#menubar {
+    width: 100%;
+    background-color: rgba(0,0,0,0.8);
+}
+
+#menubar ul {
+    display: table;
+    padding: 10px 0px;
+    width: 100%;
+}
+
+#menubar ul li {
+    display: table-cell;
+    width: 33%;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 600;
+}
+
+#menubar a {
+    color: white;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+#menubar li:hover {
+    
+}
+
+#menubar a:hover {
+    font-size: 30px;
+    background-color: #fff;
+    color: black;
+    padding: 20px;
+    font-weight: bold;
+    border-radius: 20%;
+    border: 5px solid black;
+}
+
+.sidebar {
+    width: 30%;
+    float: left;
+    padding: 5px;
+}
+
+.sidebar h2 {
+    text-align: center;
+    margin: 10px 0px;
+}
+
+.sidebar p {
+    background-color: grey;
+    border-radius: 5%;
+    padding: 10px;
+    text-indent: 50px;
+}
+
+.content {
+    width: 65%;
+    float: right;
+    margin-right: 5px;
+}
+
+.content p {
+    background-color: grey;
+    padding: 10px 20px 5px 20px;
+}
+
+.content-about {
+    width: 90%;
+    margin: auto;
+}
+
+.cool-header {
+    font-size: 36px;
+    color: aqua;
+    font-weight: bold; 
+    text-align: center;
+    margin: 0px;
+    background-color: grey;
+    padding: 10px;
+}
+
+.float-image-left {
+    float: left;
+    margin: 0px 10px 10px 0px;
+    border: 4px #333 solid;
+}
+
+.center-image {
+    display: block;
+    margin: 20px auto;
+    
+}
+
+#footer {
+    text-align: center;
+    width: 100%;
+    clear: both;
+    padding-top: 30px;
+}
